@@ -1,0 +1,34 @@
+{
+  "name": "getfilesize-cli",
+  "version": "1.0.0",
+  "description": "Get Human Readable file size information. -CLI module",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=4.1.1"
+  },
+  "scripts": {
+    "run": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathvaj1995/getfilesize-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "filesize",
+    "size",
+    "getfilesize",
+    "human",
+    "readable"
+  ],
+  "author": "Bharathvaj Ganesan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bharathvaj1995/getfilesize-cli/issues"
+  },
+  "homepage": "https://github.com/bharathvaj1995/getfilesize-cli#readme",
+  "dependencies": {
+    "getfilesize": "^1.1.0",
+    "meow": "^3.7.0"
+  }
+}
