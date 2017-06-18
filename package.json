@@ -6,6 +6,9 @@
   "engines": {
     "node": ">=4.1.1"
   },
+  "bin": {
+    "getfilesize": "cli.js"
+  },
   "scripts": {
     "run": "node cli.js"
   },
