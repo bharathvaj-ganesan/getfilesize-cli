@@ -1,5 +1,4 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/)
-[![Build Status](https://github.com/bharathvaj1995/getfilesize-cli.svg?branch=master)](https://github.com/bharathvaj1995/getfilesize-cli) 
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
 
 # getfilesize   
@@ -13,7 +12,7 @@ $ npm install --global getfilesize-cli
 
 ## Usuage
 ```javascript
-$ getfilesize <dummy.txt>
+$ getfilesize dummy.txt
 //=> 3.38 KB
 ```
 ## Related
