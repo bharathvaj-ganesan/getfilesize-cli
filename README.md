@@ -22,8 +22,8 @@ $ getfilesize dummy.txt
 
 ## Related
 
-[getfilesize](https://github.com/bharathvaj1995/getfilesize) - API for this module
+[getfilesize](https://github.com/bharathvaj-ganesan/getfilesize) - API for this module
 
 ## License
 
-MIT © [Bharathvaj Ganesan](https://github.com/bharathvaj1995)
+MIT © [Bharathvaj Ganesan](https://github.com/bharathvaj-ganesan)
