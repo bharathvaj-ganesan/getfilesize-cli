@@ -10,7 +10,8 @@
     "getfilesize": "cli.js"
   },
   "scripts": {
-    "run": "node cli.js"
+    "run": "node cli.js",
+    "release": "pkg package.json"
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,16 @@
   "dependencies": {
     "getfilesize": "^1.1.0",
     "meow": "^3.7.0"
+  },
+  "pkg": {
+    "targets": [
+      "node14-linux-x64",
+      "node14-macos-x64",
+      "node14-win-x64"
+    ],
+    "outputPath": "release"
+  },
+  "devDependencies": {
+    "pkg": "^5.0.0"
   }
 }
